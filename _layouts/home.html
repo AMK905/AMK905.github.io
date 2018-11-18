@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<!-- https://stackoverflow.com/questions/35439505/want-to-create-another-post-directory-in-jekyll
+https://stackoverflow.com/questions/33163141/jekyll-pagination-on-multiple-pages/33179651#33179651 -->
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Latest posts" }}</h2>
+    <div class="post-links">
+      {%- for post in site.posts -%}
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <p>
+            {{ post.title | escape }}
+          </p>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </a>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {% if site.tags != "" %}
+    {% include collecttags.html %}
+  {% endif %}
+
+</div>
