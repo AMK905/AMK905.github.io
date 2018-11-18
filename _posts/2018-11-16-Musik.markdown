@@ -4,6 +4,7 @@ title:  "Musik"
 date:   2018-11-13 13:40:00 -0600
 categories: jekyll update
 tags: blog
+comments: true
 ---
 
 Jag har ett stor intresse för musik. Framför allt blues, rock och metal men lyssnar även på mycket annat.

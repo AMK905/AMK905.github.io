@@ -175,6 +175,13 @@
 /**
  * Page content
  */
+
+main.page-content {
+  background-image: $background-sunset;
+  background-position: center;
+  background-size: cover;
+}
+
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
@@ -189,12 +196,10 @@
 }
 
 .post-links {
-  margin-left: 0;
   list-style: none;
-
-  > li {
-    margin-bottom: $spacing-unit;
-  }
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
 }
 
 .post-meta {
@@ -203,11 +208,14 @@
 }
 
 .post-link {
-  display: block;
   @include relative-font-size(1.5);
+  padding: 10px;
+  background-color: $background-color;
+  border-radius: 5px;
+  border: solid black 2px;
 }
 
-.post-link p {
+.post-link h3 {
   color: $grey-color-dark;
 }
 
@@ -216,6 +224,13 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+}
+
+.post {
+  background-color: $background-color;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid black 2px;
 }
 
 .post-title {
@@ -254,4 +269,12 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+#disqus_thread {
+  margin-top: 40px;
+  background-color: $background-color;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid black 2px;
 }

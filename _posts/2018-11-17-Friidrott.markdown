@@ -4,6 +4,8 @@ title:  "Friidrott"
 date:   2018-11-13 13:40:00 -0600
 categories: jekyll update
 tags: blog
+id: friidrott
+comments: true
 ---
 
 Inom friidrotten tränar jag sprint, allt mellan 200 och 800 meter. Har varit skadat ett tag nu så kommer
