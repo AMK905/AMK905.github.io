@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Robots.txt"
+date:   2018-11-18 11:45:00 -0600
+categories: jekyll update
+tags: uppgifter
+---
+
+
+
+[länk]
+
+[länk]: https://

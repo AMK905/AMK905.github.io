@@ -13,7 +13,7 @@ https://stackoverflow.com/questions/33163141/jekyll-pagination-on-multiple-pages
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Latest posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Senaste aktiviet" }}</h2>
     <div class="post-links">
       {%- for post in site.posts -%}
       <a class="post-link" href="{{ post.url | relative_url }}">

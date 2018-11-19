@@ -49,6 +49,28 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+@mixin textbackground {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: $background-color;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid black 2px;
+}
+
+@mixin headerbackground {
+  margin-bottom: 10px;
+  background-color: $background-color;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid black 2px;
+  
+}
+
+@mixin headerstyle {
+text-transform: capitalize;
+text-align: center;
+}
 // Import partials.
 @import
   "minima/base",

@@ -189,17 +189,20 @@ main.page-content {
 
 .page-heading {
   @include relative-font-size(2);
+  @include headerbackground;
 }
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  @include headerbackground;
+  @include headerstyle;
 }
 
 .post-links {
   list-style: none;
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 50px;
+  grid-gap: 20px;
 }
 
 .post-meta {
@@ -209,10 +212,7 @@ main.page-content {
 
 .post-link {
   @include relative-font-size(1.5);
-  padding: 10px;
-  background-color: $background-color;
-  border-radius: 5px;
-  border: solid black 2px;
+  @include textbackground;
 }
 
 .post-link h3 {
@@ -227,10 +227,10 @@ main.page-content {
 }
 
 .post {
-  background-color: $background-color;
-  padding: 10px;
-  border-radius: 5px;
-  border: solid black 2px;
+  @include textbackground;
+  h1 {
+    @include headerstyle;
+  }
 }
 
 .post-title {
@@ -272,9 +272,5 @@ main.page-content {
 }
 
 #disqus_thread {
-  margin-top: 40px;
-  background-color: $background-color;
-  padding: 10px;
-  border-radius: 5px;
-  border: solid black 2px;
+  @include textbackground;
 }

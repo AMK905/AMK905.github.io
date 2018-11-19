@@ -3,7 +3,7 @@ layout: post
 title:  "Friidrott"
 date:   2018-11-13 13:40:00 -0600
 categories: jekyll update
-tags: blog
+tags: blogg
 id: friidrott
 comments: true
 ---

@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Humans.txt"
+date:   2018-11-18 11:40:00 -0600
+categories: jekyll update
+tags: uppgifter
+---
+
+
+
+[länk]
+
+[länk]: https://
