@@ -6,7 +6,7 @@ categories: jekyll update
 tags: uppgifter
 ---
 
-
+Denna textfilen innhåller fakta om de som äger och har skapat webbplatsen. Denna måste precis som Robots.txt placeras direkt på roten. Jag har valt att skriva mitt namn och vilket land jag befinner mig i samt vilka standarder och program jag har använt mig av vid skapandet.
 
 [länk]
 

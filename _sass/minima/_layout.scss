@@ -219,6 +219,11 @@ main.page-content {
   color: $grey-color-dark;
 }
 
+.profile {
+  @include sideFloatWindow;
+}
+
+
 /**
  * Posts
  */

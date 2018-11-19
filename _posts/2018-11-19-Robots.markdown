@@ -6,8 +6,6 @@ categories: jekyll update
 tags: uppgifter
 ---
 
+Nu har har lagt till [Robots] på min webbplats. Det är en text-fil som blockerar olika typer av botar beroende på hur du konfigurerar den. Jag har valt att blockera googles sökmotor för bilder så mina bilder jag lägger upp på sidan kommer inte synas bland sökresultaten på google. 
 
-
-[länk]
-
-[länk]: https://
+[Robots]: http://www.robotstxt.org/
