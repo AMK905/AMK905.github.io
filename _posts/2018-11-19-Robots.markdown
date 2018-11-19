@@ -4,8 +4,9 @@ title:  "Robots.txt"
 date:   2018-11-18 11:45:00 -0600
 categories: jekyll update
 tags: uppgifter
+comments: true
+profile: true
 ---
-
 Nu har har lagt till [Robots] på min webbplats. Det är en text-fil som blockerar olika typer av botar beroende på hur du konfigurerar den. Jag har valt att blockera googles sökmotor för bilder så mina bilder jag lägger upp på sidan kommer inte synas bland sökresultaten på google. 
 
 [Robots]: http://www.robotstxt.org/

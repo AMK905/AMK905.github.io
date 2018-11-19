@@ -1,8 +1,19 @@
-
+{% if home.profile %}
 <div class="profile">
-    <img src="../image/Avatar.png">
-    <div class="aboutprofile">
-      <p>Välkommen!</p>
-      <a href="../about">Läs mer om mig här</a>
-    </div>
+  <img src="../image/Avatar.png" alt="Avatar">
+  <div class="aboutprofile">
+    <p>Välkommen!</p>
+    <a href="../about">Läs mer om mig här</a>
   </div>
+</div>
+{% endif %}
+
+{% if page.profile %}
+<div class="profile">
+  <img src="../../../../../../image/Avatar.png" alt="Avatar">
+  <div class="aboutprofile">
+    <p>Välkommen!</p>
+    <a href="../about">Läs mer om mig här</a>
+  </div>
+</div>
+{% endif %}

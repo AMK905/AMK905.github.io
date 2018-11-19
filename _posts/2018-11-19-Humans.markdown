@@ -4,10 +4,7 @@ title:  "Humans.txt"
 date:   2018-11-18 11:40:00 -0600
 categories: jekyll update
 tags: uppgifter
+comments: true
+profile: true
 ---
-
 Denna textfilen innhåller fakta om de som äger och har skapat webbplatsen. Denna måste precis som Robots.txt placeras direkt på roten. Jag har valt att skriva mitt namn och vilket land jag befinner mig i samt vilka standarder och program jag har använt mig av vid skapandet.
-
-[länk]
-
-[länk]: https://

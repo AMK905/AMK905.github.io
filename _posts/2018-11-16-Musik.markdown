@@ -5,8 +5,8 @@ date:   2018-11-13 13:40:00 -0600
 categories: jekyll update
 tags: blogg
 comments: true
+profile: true
 ---
-
 Jag har ett stor intresse för musik. Framför allt blues, rock och metal men lyssnar även på mycket annat.
 Själv spelar jag gitarr när jag har lite tid över. Jag har gått på kulturskolan i Kalmar i 10 år och spelat på bland annat larmtorget.
 Klicka på länken nedan om ni vill lyssna när jag spelar lite
