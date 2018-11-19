@@ -1,0 +1,18 @@
+                            
+/* TEAM */
+
+Developer: Adam Kjellnäs.
+
+Location: Sweden.
+
+                        [...]
+                      
+/* SITE */
+    
+Last update: 2018/11/19 
+
+Standards: HTML5, CSS3
+
+Software: vs-code
+
+Pre-processor: Jekyll

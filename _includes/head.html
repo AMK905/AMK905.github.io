@@ -1,14 +1,18 @@
 <head>
+  <meta name="robots" content="NOINDEX, NOFOLLOW">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:title" content="Adam Kjellnäs" />
   <meta property="og:type" content="site" />
-  <meta property="og:url" content="http://localhost:4000/" />
-  <meta property="og:image" content="http://localhost:4000/image/Avatar.png" />
-  <meta property="og:description" content="Min nya webbplats i utbildningssyfte"
+  <meta property="og:url" content="https://aranea.serveo.net/" />
+  <meta property="og:image:url" content="https://aranea.serveo.net/avatarsmall.png" />
+  <meta property="og:image:type" content="png" />
+  <meta property="og:image:width" content="500" />
+  <meta property="og:description" content="Min nya webbplats i utbildningssyfte" />
+
   {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href='{{ "/assets/main.css" | relative_url }}'/>
   <link rel="Adam Kjellnäs" href="humans.txt" />
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}

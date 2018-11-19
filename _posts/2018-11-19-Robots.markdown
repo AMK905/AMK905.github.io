@@ -7,6 +7,6 @@ tags: uppgifter
 comments: true
 profile: true
 ---
-Nu har har lagt till [Robots] på min webbplats. Det är en text-fil som blockerar olika typer av botar beroende på hur du konfigurerar den. Jag har valt att blockera googles sökmotor för bilder så mina bilder jag lägger upp på sidan kommer inte synas bland sökresultaten på google. 
+Nu har har lagt till [Robots] på min webbplats. Det är en text-fil som blockerar olika typer av botar beroende på hur du konfigurerar den. Jag har valt att blockera alla sökmotorer förutom google. Google kommer får dock inte komma åt bildfiler med typen .png och .jpg. Text-filen måste läggas direkt på roten.
 
 [Robots]: http://www.robotstxt.org/
