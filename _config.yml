@@ -17,7 +17,7 @@ title: Adam Kjellnäs
 email: adamkjellnas@gmail.com
 description: Alla rättigheter för fotografier och vektorbilder på denna webbplats är reserverade. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://amk905.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  amk905
 facebook_username: adam.kjellnas
