@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduinostyrd datorbelysning"
-date:   2018-11-13 13:40:00 -0600
+date:   2015-02-08 13:40:00 -0600
 categories: jekyll update elektronik
 tags: blogg
 comments: true
